@@ -617,7 +617,7 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   cloudProjectId: b6c5b01f-d2a1-491d-b93e-e51b656d68bc
   framebufferDepthMemorylessMode: 0
-  projectName: 
+  projectName: testing
   organizationId: arm007942
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0

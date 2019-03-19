@@ -7,7 +7,7 @@ public class crosshairLogic : MonoBehaviour
 {
     public Image crosshair;
     public Sprite newSprite;
-    private Sprite storedCrosshair;
+    public Sprite storedCrosshair;
 
     //move this intro dragrigidbody script???
     void Start()
@@ -34,6 +34,7 @@ public class crosshairLogic : MonoBehaviour
             {
                 //Debug.Log(hit.transform.name);
                 crosshair.sprite = newSprite;
+
             }
             else
             {

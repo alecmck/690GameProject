@@ -41,11 +41,12 @@ public class InventoryItemSimple : MonoBehaviour, InventoryItem
         this.gameObject.transform.SetPositionAndRotation(position, rotation);
     }
 
-    private void OnMouseOver()
+    private void OnMouseDrag()
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
             Enter();
+
         }
     }
 }

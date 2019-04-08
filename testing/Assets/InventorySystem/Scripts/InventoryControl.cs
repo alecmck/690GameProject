@@ -7,21 +7,38 @@ public class InventoryControl : MonoBehaviour
 {
 
     public static InventoryControl control;
-    //public static GameObject player;*/
     public Transform ContenPanel;
     public GameObject InventoryButton;
-    //private Dictionary<string, InventoryItem> Inventory = new Dictionary<string, InventoryItem>();
     private List<InventoryItem> Inventory = new List<InventoryItem>();
 
     private bool visible = false;
     public GameObject InventoryUI;
     public GameObject InventoryOpenButton;
+    public GameObject fpsConrtoller;
+    private UnityStandardAssets.Characters.FirstPerson.FirstPersonController fpsMove;
+    private dragRigidbody2 fpsPickup;
+
+    public void Start()
+    {
+        fpsMove = fpsConrtoller.GetComponent<UnityStandardAssets.Characters.FirstPerson.FirstPersonController>();
+        fpsPickup = fpsConrtoller.GetComponent<dragRigidbody2>();
+    }
 
     public void ShowInventory()
     {
-         InventoryUI.SetActive(!visible);
-         InventoryOpenButton.SetActive(visible);
-        visible = !visible;        
+         InventoryUI.SetActive(true);
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+        fpsMove.enabled = false;
+        fpsPickup.enabled = false;        
+    }
+
+    public void CloseInventory()
+    {
+        InventoryUI.SetActive(false);
+        Cursor.lockState = CursorLockMode.Locked;
+        fpsMove.enabled = true;
+        fpsPickup.enabled = true;
     }
 
     void Awake()
@@ -53,13 +70,16 @@ public class InventoryControl : MonoBehaviour
 
     public void Use(InventoryItem o)
     {
-        o.Remove(Camera.main.ScreenToWorldPoint(Vector3.zero), new Quaternion(0, 0, 0, 0));
+        o.Remove(Camera.main.ScreenToWorldPoint(new Vector3(0,0,1)), new Quaternion(0, 0, 0, 0));
         Inventory.Remove(o);
-        ShowInventory();
+        CloseInventory();
     }
 
     void Update()
     {
-
+        if (Input.GetKeyDown(KeyCode.I))
+        {
+            ShowInventory();
+        }
     }
 }

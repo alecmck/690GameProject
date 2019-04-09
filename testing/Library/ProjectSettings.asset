@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 15
-  productGUID: 2ccc2e457972a4e48a4d714e7e95e71a
+  productGUID: 3c03d3a1a0711d74cb696bec171bb0b8
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -621,10 +621,10 @@ PlayerSettings:
   facebookXfbml: 0
   facebookFrictionlessRequests: 1
   apiCompatibilityLevel: 6
-  cloudProjectId: b6c5b01f-d2a1-491d-b93e-e51b656d68bc
+  cloudProjectId: 
   framebufferDepthMemorylessMode: 0
-  projectName: testing
-  organizationId: arm007942
+  projectName: 
+  organizationId: 
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0

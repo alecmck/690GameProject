@@ -7,13 +7,13 @@ public class InventoryControl : MonoBehaviour
 {
 
     public static InventoryControl control;
-    public Transform ContenPanel;
+
+    public Transform ContenPanel; //Where inventory items appear
     public GameObject InventoryButton;
     private List<InventoryItem> Inventory = new List<InventoryItem>();
 
-    private bool visible = false;
     public GameObject InventoryUI;
-    public GameObject InventoryOpenButton;
+
     public GameObject fpsConrtoller;
     private UnityStandardAssets.Characters.FirstPerson.FirstPersonController fpsMove;
     private dragRigidbody2 fpsPickup;
@@ -22,6 +22,20 @@ public class InventoryControl : MonoBehaviour
     {
         fpsMove = fpsConrtoller.GetComponent<UnityStandardAssets.Characters.FirstPerson.FirstPersonController>();
         fpsPickup = fpsConrtoller.GetComponent<dragRigidbody2>();
+        control = this;
+    }
+
+   void Awake()
+    {//This makes only one inventory control that is accisible from other scripts. 
+        if (control == null)
+        {
+            DontDestroyOnLoad(gameObject);
+            control = this;
+        }
+        else if (control != this)
+        {
+            Destroy(gameObject);
+        }
     }
 
     public void ShowInventory()
@@ -41,31 +55,13 @@ public class InventoryControl : MonoBehaviour
         fpsPickup.enabled = true;
     }
 
-    void Awake()
-    {//This makes only one inventory control that is accisible from other scripts. 
-        if (control == null)
-        {
-            DontDestroyOnLoad(gameObject);
-            control = this;
-        }
-        else if (control != this)
-        {
-            Destroy(gameObject);
-        }
-    }
-
-
     public void Collect(InventoryItem o) //Called by InventoryItem.cs
     {
-        Debug.Log("Collect");
         Inventory.Add(o);
-        Debug.Log("Added to Inventory");
         GameObject button = (GameObject)GameObject.Instantiate(InventoryButton);
-        Debug.Log("Trying to set up button");
         button.GetComponent<IButton>().SetUp(o, this);
-        Debug.Log("trying to add button");
         button.transform.SetParent(ContenPanel);
-        Debug.Log("Should have added button");
+      
     }
 
     public void Use(InventoryItem o)

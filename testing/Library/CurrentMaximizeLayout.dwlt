@@ -25,10 +25,14 @@ MonoBehaviour:
   m_MaxSize: {x: 14004, y: 14048}
   vertical: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 8559
 =======
   controlID: 122
 >>>>>>> 294277e15ac0c63128a62dcc1cfe0cc594162475
+=======
+  controlID: 5598
+>>>>>>> parent of f522946b... Alec Final Bit
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -134,10 +138,14 @@ MonoBehaviour:
   m_MaxSize: {x: 10002, y: 14048}
   vertical: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 8530
 =======
   controlID: 70
 >>>>>>> 294277e15ac0c63128a62dcc1cfe0cc594162475
+=======
+  controlID: 5599
+>>>>>>> parent of f522946b... Alec Final Bit
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -163,10 +171,14 @@ MonoBehaviour:
   m_MaxSize: {x: 8006, y: 4024}
   vertical: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 8531
 =======
   controlID: 47
 >>>>>>> 294277e15ac0c63128a62dcc1cfe0cc594162475
+=======
+  controlID: 5600
+>>>>>>> parent of f522946b... Alec Final Bit
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -187,12 +199,17 @@ MonoBehaviour:
 <<<<<<< HEAD
     width: 307
     height: 401
+<<<<<<< HEAD
 =======
     width: 418
     height: 521
 >>>>>>> 294277e15ac0c63128a62dcc1cfe0cc594162475
   m_MinSize: {x: 202, y: 224}
   m_MaxSize: {x: 4002, y: 4024}
+=======
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+>>>>>>> parent of f522946b... Alec Final Bit
   m_ActualView: {fileID: 6}
   m_Panes:
   - {fileID: 6}
@@ -227,6 +244,7 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
 <<<<<<< HEAD
+<<<<<<< HEAD
       scrollPos: {x: 0, y: 2756}
       m_SelectedIDs: 
       m_LastClickedID: 0
@@ -237,20 +255,26 @@ MonoBehaviour:
       m_LastClickedID: 0
       m_ExpandedIDs: 92f8ffffbcffffff
 >>>>>>> 294277e15ac0c63128a62dcc1cfe0cc594162475
+=======
+      scrollPos: {x: 0, y: 2196}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: ccfbffffaa2700003c2a0000102c0000222c0000542f0000f6300000
+>>>>>>> parent of f522946b... Alec Final Bit
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Crowbar
-        m_OriginalName: Crowbar
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -7992
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 5}
       m_SearchString: 
@@ -321,6 +345,7 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_Position:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: 0.22428593, y: 0.801748, z: -14.505409}
     speed: 2
     m_Value: {x: 0.22428593, y: 0.801748, z: -14.505409}
@@ -329,6 +354,11 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 1240.4009, y: 628.1562, z: -0.000008583069}
 >>>>>>> 294277e15ac0c63128a62dcc1cfe0cc594162475
+=======
+    m_Target: {x: 8.7174425, y: 9.027455, z: -51.214935}
+    speed: 2
+    m_Value: {x: 8.7174425, y: 9.027455, z: -51.214935}
+>>>>>>> parent of f522946b... Alec Final Bit
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -357,12 +387,17 @@ MonoBehaviour:
       m_Value: 0
   m_Rotation:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: 0.1606411, y: -0.8353863, z: 0.3245038, w: 0.41354758}
+=======
+    m_Target: {x: -0.0046348386, y: 0.98626393, z: 0.16270418, w: 0.028096877}
+>>>>>>> parent of f522946b... Alec Final Bit
     speed: 2
-    m_Value: {x: 0.1606411, y: -0.8353863, z: 0.3245038, w: 0.41354758}
+    m_Value: {x: -0.0046348386, y: 0.98626393, z: 0.16270418, w: 0.028096877}
   m_Size:
-    m_Target: 0.867423
+    m_Target: 24.663
     speed: 2
+<<<<<<< HEAD
     m_Value: 0.867423
 =======
     m_Target: {x: -0.05215898, y: -0.25710028, z: 0.013898171, w: -0.96487606}
@@ -373,6 +408,9 @@ MonoBehaviour:
     speed: 2
     m_Value: 429.33328
 >>>>>>> 294277e15ac0c63128a62dcc1cfe0cc594162475
+=======
+    m_Value: 24.663
+>>>>>>> parent of f522946b... Alec Final Bit
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -408,7 +446,7 @@ MonoBehaviour:
     x: 307.2
     y: 73.6
     width: 768
-    height: 381
+    height: 364
   m_PersistentViewDataDictionary: {fileID: 0}
 --- !u!114 &10
 MonoBehaviour:
@@ -430,6 +468,7 @@ MonoBehaviour:
     y: 401
     width: 1079
     height: 331
+<<<<<<< HEAD
   m_MinSize: {x: 230, y: 250}
   m_MaxSize: {x: 10000, y: 10000}
 =======
@@ -439,6 +478,10 @@ MonoBehaviour:
   m_MinSize: {x: 232, y: 274}
   m_MaxSize: {x: 10002, y: 10024}
 >>>>>>> 294277e15ac0c63128a62dcc1cfe0cc594162475
+=======
+  m_MinSize: {x: 232, y: 274}
+  m_MaxSize: {x: 10002, y: 10024}
+>>>>>>> parent of f522946b... Alec Final Bit
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 11}
@@ -511,6 +554,7 @@ MonoBehaviour:
     m_SearchArea: 1
     m_Folders:
 <<<<<<< HEAD
+<<<<<<< HEAD
     - Assets/AssetStoreOriginals/_SNAPS_PrototypingAssets/ModernOfficeInterior/Materials/Colors
   m_ViewMode: 1
   m_StartGridSize: 57
@@ -523,11 +567,19 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Scenes
 >>>>>>> 294277e15ac0c63128a62dcc1cfe0cc594162475
+=======
+    - Assets/ManualPages
+  m_ViewMode: 1
+  m_StartGridSize: 57
+  m_LastFolders:
+  - Assets/ManualPages
+>>>>>>> parent of f522946b... Alec Final Bit
   m_LastFoldersGridSize: 57
   m_LastProjectPath: F:\690GameProject-master\testing
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
 <<<<<<< HEAD
     scrollPos: {x: 0, y: 207}
     m_SelectedIDs: 9c1b0000
@@ -539,6 +591,12 @@ MonoBehaviour:
     m_LastClickedID: 12544
     m_ExpandedIDs: 000000003c2e00008c30000000310000b8320000683300008434000058360000863600000a3700002c370000c63a00003a3b0000963b0000463c00008a3f000036400000fe400000344100005c42000000ca9a3b
 >>>>>>> 294277e15ac0c63128a62dcc1cfe0cc594162475
+=======
+    scrollPos: {x: 0, y: 121}
+    m_SelectedIDs: 4a540000
+    m_LastClickedID: 21578
+    m_ExpandedIDs: 00000000fe0e000040110000b01100006813000018140000301500002c170000b0170000ce170000681b00002e1c0000de1c00000e200000ba2000004621000082210000b8210000dc22000000ca9a3b
+>>>>>>> parent of f522946b... Alec Final Bit
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -567,10 +625,14 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000020f00009610000054110000c41100007e13000030140000481500004a170000d8170000f6170000ec190000a01b0000681c0000181d00004e200000fe2000008e2100009a210000ca21000002220000262300009624000000ca9a3b
 =======
     m_ExpandedIDs: 000000003c2e00008c30000000310000b8320000683300008434000058360000863600000a3700002c370000c63a00003a3b0000963b0000463c00008a3f000036400000fe400000344100005c420000
 >>>>>>> 294277e15ac0c63128a62dcc1cfe0cc594162475
+=======
+    m_ExpandedIDs: 00000000fe0e000040110000b01100006813000018140000301500002c170000b0170000ce170000681b00002e1c0000de1c00000e200000ba2000004621000082210000b8210000dc22000000ca9a3b
+>>>>>>> parent of f522946b... Alec Final Bit
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -596,9 +658,15 @@ MonoBehaviour:
       m_ResourceFile: 
   m_ListAreaState:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_SelectedInstanceIDs: c8e0ffff
     m_LastClickedInstanceID: -7992
     m_HadKeyboardFocusLastEvent: 1
+=======
+    m_SelectedInstanceIDs: 2e320000
+    m_LastClickedInstanceID: 12846
+    m_HadKeyboardFocusLastEvent: 0
+>>>>>>> parent of f522946b... Alec Final Bit
     m_ExpandedInstanceIDs: c62300004e1b0000461500008c190000ce1700000c4c0000d8100000000000003c1300008ecd01004221000088cd010082cd01001c15000080cd0100601f000042150000
 =======
     m_SelectedInstanceIDs: e2370000
@@ -661,10 +729,14 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LastSelectedObjectID: -10364
 =======
   m_LastSelectedObjectID: 262844
 >>>>>>> 294277e15ac0c63128a62dcc1cfe0cc594162475
+=======
+  m_LastSelectedObjectID: 13704
+>>>>>>> parent of f522946b... Alec Final Bit
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -685,8 +757,8 @@ MonoBehaviour:
 <<<<<<< HEAD
     width: 457
     height: 732
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 277, y: 74}
+  m_MaxSize: {x: 4002, y: 4024}
   m_ActualView: {fileID: 15}
 =======
     width: 465

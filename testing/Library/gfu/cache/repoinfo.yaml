@@ -13,8 +13,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
+<<<<<<< HEAD
   lastUpdatedAtString: 2019-04-26T16:54:17.064-04:00
   initializedAtString: 2019-04-26T16:54:17.064-04:00
+=======
+  lastUpdatedAtString: 2019-04-09T10:55:44.558-04:00
+  initializedAtString: 2019-04-09T10:55:44.558-04:00
+>>>>>>> parent of f522946b... Alec Final Bit
   currentGitRemote:
     name: origin
     url: https://github.com/alecmck/690GameProject.git

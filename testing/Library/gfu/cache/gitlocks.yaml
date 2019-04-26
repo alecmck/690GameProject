@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
+<<<<<<< HEAD
   lastUpdatedAtString: 2019-04-26T16:54:17.127-04:00
   initializedAtString: 2019-04-26T16:54:17.127-04:00
+=======
+  lastUpdatedAtString: 2019-04-09T10:55:45.346-04:00
+  initializedAtString: 2019-04-09T10:55:45.346-04:00
+>>>>>>> parent of f522946b... Alec Final Bit
   gitLocks: []

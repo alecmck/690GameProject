@@ -5,20 +5,19 @@ using UnityEngine;
 public class InventoryItemImpl : MonoBehaviour, InventoryItem
 {
 
-    //public InventoryControl control;
     private ItemControl iControl;
     private ItemView iView;
     public string itemName;
-
-    public string GetName()
-    {
-        return itemName;
-    }
 
     void Start()
     {
         iControl = GetComponentInChildren<ItemControl>();
         iView = GetComponentInChildren<ItemView>();
+    }
+
+    public string GetName()
+    {
+        return itemName;
     }
 
     public bool InInventory()
@@ -28,14 +27,11 @@ public class InventoryItemImpl : MonoBehaviour, InventoryItem
 
     public void Enter()
     {
-        Debug.Log("Enter InventoryItem");
         if (iView != null && iControl != null)
         {
-            Debug.Log("Not Null");
             iControl.ActivateControl();
             iView.Hide();
         }
-        Debug.Log("Calling Collect");
         InventoryControl.control.Collect(this);
     }
 
@@ -43,10 +39,8 @@ public class InventoryItemImpl : MonoBehaviour, InventoryItem
     {
         if (iView != null && iControl != null)
         {
-            Debug.Log("NOT NULL YAY");
             iControl.DeactivateControl();
             iView.Remove(position, rotation);
         }
-        //control.Collect(this);
     }
 }

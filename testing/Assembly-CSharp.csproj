@@ -72,6 +72,8 @@
     <Compile Include="Assets\InventorySystem\Scripts\ItemView.cs" />
     <Compile Include="Assets\InventorySystem\Scripts\ShowHide.cs" />
     <Compile Include="Assets\InventorySystem\Scripts\ToggleOnOff.cs" />
+    <Compile Include="Assets\MainMenuSystem\Scripts\loopCamRotation.cs" />
+    <Compile Include="Assets\MainMenuSystem\Scripts\MainMenu.cs" />
     <Compile Include="Assets\ManualSystem\Scripts\ManualControler.cs" />
     <Compile Include="Assets\Real-Time Procedural Cable Simple\Scripts\Cable_Procedural_Simple.cs" />
     <Compile Include="Assets\Real-Time Procedural Cable Simple\Scripts\Cable_Procedural_Static.cs" />
@@ -86,24 +88,25 @@
     <Compile Include="Assets\scripts\crosshairLogic.cs" />
     <Compile Include="Assets\scripts\dragRigidbody2.cs" />
     <Compile Include="Assets\scripts\FirstPersonController.cs" />
+    <None Include="Assets\MainMenuSystem\FrostedGlass.shader" />
     <None Include="Assets\LowPolyOfficeProps_LITE\About.txt" />
     <None Include="Assets\Real-Time Procedural Cable Simple\ReadmeSimpleCable.txt" />
     <None Include="Assets\Real-Time Procedural Cable Simple\ReadmeStaticCable.txt" />
     <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
     <Reference Include="Unity.ProGrids">
-      <HintPath>C:/Users/Alec/Documents/GitHub/690GameProject1/690GameProject/testing/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
+      <HintPath>F:/690GameProject-master/testing/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
-      <HintPath>C:/Users/Alec/Documents/GitHub/690GameProject1/690GameProject/testing/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+      <HintPath>F:/690GameProject-master/testing/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProGrids.Editor">
-      <HintPath>C:/Users/Alec/Documents/GitHub/690GameProject1/690GameProject/testing/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
+      <HintPath>F:/690GameProject-master/testing/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/Alec/Documents/GitHub/690GameProject1/690GameProject/testing/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>F:/690GameProject-master/testing/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.AddOns.Editor">
-      <HintPath>C:/Users/Alec/Documents/GitHub/690GameProject1/690GameProject/testing/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+      <HintPath>F:/690GameProject-master/testing/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
